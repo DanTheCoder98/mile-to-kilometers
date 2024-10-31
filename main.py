@@ -1,7 +1,7 @@
 from tkinter import *
 
 
-def calculate():
+def miles_to_km():
     km = round(float(miles_input.get()) * 1.609344, 2)
     km_num_label.config(text=km)
 
@@ -25,7 +25,7 @@ km_num_label.grid(column=1, row=1)
 km_label = Label(text="Km")
 km_label.grid(column=2, row=1)
 
-calculate_button = Button(text="Calculate", command=calculate)
+calculate_button = Button(text="Calculate", command=miles_to_km)
 calculate_button.grid(column=1, row=2)
 
 window.mainloop()
