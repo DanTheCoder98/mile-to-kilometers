@@ -7,6 +7,7 @@ def calculate():
 
 
 window = Tk()
+window.title("Miles to Kilometers Converter")
 
 miles_input = Entry()
 miles_input.grid(column=1, row=0)
