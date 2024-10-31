@@ -8,8 +8,9 @@ def calculate():
 
 window = Tk()
 window.title("Miles to Kilometers Converter")
+window.config(padx=20, pady=20)
 
-miles_input = Entry()
+miles_input = Entry(width=10)
 miles_input.grid(column=1, row=0)
 
 miles_label = Label(text="Miles")
